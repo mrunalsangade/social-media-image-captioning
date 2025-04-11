@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+header, footer {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+input[type="file"] {
+    margin: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.result-container p {
+    font-size: 1.2rem;
+    color: #333;
+}
